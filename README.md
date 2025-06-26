@@ -20,7 +20,37 @@ Absorvemos e retomamos aquilo que ja vinhamos consumindo em Java:
 
 🛠️ Funções (métodos)
 
+🏗️ Classes
 
+📞 Métodos
+
+🔐 Encapsulamento
+
+🧬 Herança
+
+🌀 Polimorfismo
+
+## 🎁 De bônus aprendemos:
+
+🧱 Modelagem Orientada a Objetos (OO)
+
+✍️ Usando underline em literais
+
+💬 Comentários em Java
+
+📐 Padrão de nomeação de variáveis
+
+🔢 Valores default para variáveis
+
+🎭 Casos não comuns de casting e atribuição
+
+🧩 Palavras-chave em Java (this, static, final, etc.)
+
+🗑️ Garbage Collector
+
+🧵 Argumentos variáveis (varargs)
+
+⚔️ Herança vs Acoplamento
 ---
 Estudo realizado como parte do meu plano de desenvolvimento pessoal! 🚀✨
 
