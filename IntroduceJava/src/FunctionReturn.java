@@ -1,8 +1,11 @@
 public class FunctionReturn {
     public static void main(String[] args) {
-        int resultado = soma(2,3);
+        int resultado1 = somaEMulti(2, 10, 1);
+        System.out.println(resultado1);
+
     }
-    public static int soma (int a,int b) {
-        return a + b;
+    public static int somaEMulti (int a,int b, int c) {
+        return a + b * c;
+
     }
 }
