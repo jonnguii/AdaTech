@@ -1,31 +1,41 @@
 package Animals;
 
-public class Dog {
+public class Dog extends Animal {
 
-    public String name;
-    public String color;
-    public int height;
-    public double weight;
-    public int tailSize;
-    public String stateOfMind;
 
-    public void comer(){}
-    public void latir() {
-        System.out.println("Au, au!");
+    public Dog(String name, String color, int weight, int height) {
+        super(name, color, weight, height);
     }
+
+    @Override
+    public void soar() {
+        System.out.println("AU AU");
+    }
+
     public String pegar() {
         return "bolinha";
-        }
-
-    public String interagir (String acao) { //referencia
-        if (acao.equalsIgnoreCase("carinho")) {
-            return this.stateOfMind = "feliz";
-        } else if (acao.equalsIgnoreCase("senta")){
-            this.stateOfMind = "obediente e curioso";
-        }else {
-            this.stateOfMind = "neutro";
-        }
-        return stateOfMind;
     }
+
+    public String interagir(String acao) { //referencia
+
+        switch (acao) {
+            case "carinho": this.stateOfMind = "feliz";
+                break;
+            case "senta": this.stateOfMind = "obediente e curioso";
+                break;
+            default: this.stateOfMind = "neutro";
+        }
+        return this.stateOfMind;
+    }
+
+//        if (acao.equalsIgnoreCase("carinho")) {
+//            return this.stateOfMind = "feliz";
+//        } else if (acao.equalsIgnoreCase("senta")){
+//            this.stateOfMind = "obediente e curioso";
+//        }else {
+//            this.stateOfMind = "neutro";
+//        }
+//        return stateOfMind;
+//    }
     }
 
